@@ -1,0 +1,524 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fatima Hassan | Digital Experience</title>
+
+    <meta name="description" content="Explore Fatima Hassan's creative digital portfolio, featuring web experiences, digital marketing, and professional services.">
+
+    <meta name="theme-color" content="#2b101b">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Website stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- GSAP animation library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Website scripts -->
+    <script src="js/main.js" defer></script>
+    <script src="js/scroll-scenes.js" defer></script>
+</head>
+
+<body>
+
+    <!-- =========================
+         PRELOADER
+    ========================== -->
+
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <span class="preloader-monogram">FH</span>
+            <span class="preloader-line"></span>
+            <p>CRAFTING A DIGITAL EXPERIENCE</p>
+        </div>
+    </div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header" id="site-header">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="brand" aria-label="Fatima Hassan home">
+                <span class="brand-monogram">FH</span>
+
+                <span class="brand-name">
+                    FATIMA HASSAN
+                    <small>DIGITAL EXPERIENCE</small>
+                </span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#desktop-scene">Desktop</a>
+                <a href="#mobile-scene">Mobile</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             SCENE 01: INTRODUCTION
+        ========================== -->
+
+        <section class="intro-scene" id="home">
+
+            <div class="intro-background">
+                <div class="intro-glow intro-glow-one"></div>
+                <div class="intro-glow intro-glow-two"></div>
+                <div class="intro-grid"></div>
+            </div>
+
+            <div class="intro-content container">
+
+                <div class="intro-image-wrap">
+                    <div class="intro-image-frame">
+                        <img
+                            src="assets/images/profile.jpg"
+                            alt="Portrait of Fatima Hassan"
+                            class="intro-image"
+                        >
+                    </div>
+
+                    <span class="image-decoration image-decoration-one"></span>
+                    <span class="image-decoration image-decoration-two"></span>
+                </div>
+
+                <div class="intro-copy">
+
+                    <p class="intro-overline">
+                        WELCOME TO MY DIGITAL WORLD
+                    </p>
+
+                    <h1 class="intro-title">
+                        Hello, I'm
+                        <span>Fatima Hassan.</span>
+                    </h1>
+
+                    <h2 class="intro-subtitle">
+                        Creativity meets
+                        <span>purpose.</span>
+                    </h2>
+
+                    <p class="intro-description">
+                        I'm a computer science student and versatile
+                        professional passionate about creating meaningful
+                        digital experiences. From web development and digital
+                        marketing to document design and virtual assistance,
+                        I bring ideas to life with creativity, precision,
+                        and attention to detail.
+                    </p>
+
+                    <div class="intro-actions">
+
+                        <a href="#desktop-scene" class="btn btn-primary">
+                            EXPLORE MY WORK
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            LET'S CONNECT
+                        </a>
+
+                    </div>
+
+                    <div class="intro-highlights">
+
+                        <div class="highlight-item">
+                            <span class="highlight-number">01</span>
+                            <span class="highlight-label">
+                                DIGITAL CREATIVITY
+                            </span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <span class="highlight-number">02</span>
+                            <span class="highlight-label">
+                                WEB EXPERIENCES
+                            </span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <span class="highlight-number">03</span>
+                            <span class="highlight-label">
+                                DETAIL & PRECISION
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-indicator-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SCENE 02: DESKTOP SHOWCASE
+        ========================== -->
+
+        <section class="desktop-scene" id="desktop-scene">
+
+            <div class="scene-heading container">
+
+                <p class="scene-eyebrow">
+                    01 — THE DESKTOP EXPERIENCE
+                </p>
+
+                <h2>
+                    A bigger screen.
+                    <span>A bigger vision.</span>
+                </h2>
+
+                <p>
+                    Discover how a digital idea transforms into a complete
+                    desktop experience. Scroll to explore the presentation.
+                </p>
+
+            </div>
+
+
+            <div class="desktop-stage">
+
+                <div class="desktop-light desktop-light-left"></div>
+                <div class="desktop-light desktop-light-right"></div>
+
+                <div class="desktop-device" id="desktop-device">
+
+                    <div class="desktop-screen-frame">
+
+                        <div class="desktop-camera"></div>
+
+                        <div class="desktop-screen" id="desktop-screen">
+
+                            <img
+                                src="assets/images/desktop-showcase.png"
+                                alt="Desktop website demonstration"
+                                class="desktop-preview"
+                            >
+
+                        </div>
+
+                    </div>
+
+                    <div class="desktop-neck"></div>
+                    <div class="desktop-base"></div>
+
+                </div>
+
+                <div class="desktop-floor"></div>
+
+            </div>
+
+
+            <div class="desktop-caption container">
+
+                <span class="caption-line"></span>
+
+                <p>
+                    DESIGNED TO MAKE AN IMPRESSION
+                </p>
+
+                <span class="caption-line"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SCENE 03: MOBILE SHOWCASE
+        ========================== -->
+
+        <section class="mobile-scene" id="mobile-scene">
+
+            <div class="scene-heading container">
+
+                <p class="scene-eyebrow">
+                    02 — THE MOBILE EXPERIENCE
+                </p>
+
+                <h2>
+                    Small screen.
+                    <span>Endless possibilities.</span>
+                </h2>
+
+                <p>
+                    A great experience should feel just as beautiful in
+                    your hand. Watch the mobile design come to life.
+                </p>
+
+            </div>
+
+
+            <div class="phone-stage" id="phone-stage">
+
+                <div class="phone-light"></div>
+
+                <div class="phone-platform"></div>
+
+                <!--
+                    The phone begins upright with a slight diagonal tilt.
+                    Scroll animation will rotate it toward a landscape
+                    diagonal position while keeping its screen visible.
+                -->
+
+                <div class="phone-device" id="phone-device">
+
+                    <div class="phone-frame">
+
+                        <div class="phone-side-button phone-side-button-one"></div>
+                        <div class="phone-side-button phone-side-button-two"></div>
+
+                        <div class="phone-screen" id="phone-screen">
+
+                            <div class="phone-camera"></div>
+
+                            <img
+                                src="assets/images/mobile-showcase.png"
+                                alt="Mobile website demonstration"
+                                class="mobile-preview"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="phone-shadow"></div>
+
+            </div>
+
+
+            <div class="mobile-caption container">
+
+                <span class="caption-line"></span>
+
+                <p>
+                    EVERY DETAIL. EVERY DEVICE.
+                </p>
+
+                <span class="caption-line"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SCENE 04: CONTACT
+        ========================== -->
+
+        <section class="contact-scene" id="contact">
+
+            <div class="contact-background">
+                <div class="contact-glow"></div>
+            </div>
+
+            <div class="contact-container container">
+
+                <div class="contact-heading">
+
+                    <p class="scene-eyebrow">
+                        03 — LET'S CREATE SOMETHING
+                    </p>
+
+                    <h2>
+                        Have an idea?
+                        <span>Let's make it happen.</span>
+                    </h2>
+
+                    <p>
+                        Whether you have a project in mind, need professional
+                        support, or simply want to connect, I'd love to hear
+                        from you.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-layout">
+
+                    <div class="contact-information">
+
+                        <h3>
+                            Let's start a conversation.
+                        </h3>
+
+                        <p>
+                            Share a little about what you're looking for.
+                            I'll be happy to connect with you.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span class="contact-detail-label">EMAIL</span>
+                            <a href="mailto:itsfatima.hsn@hotmail.com">
+                                itsfatima.hsn@hotmail.com
+                            </a>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-detail-label">PHONE</span>
+                            <a href="tel:+923241595101">
+                                +92 324 1595101
+                            </a>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-detail-label">LOCATION</span>
+                            <span>Lahore, Pakistan</span>
+                        </div>
+
+                        <a
+                            href="https://www.linkedin.com/in/ffhsn/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="linkedin-link"
+                        >
+                            CONNECT ON LINKEDIN ↗
+                        </a>
+
+                    </div>
+
+
+                    <form class="contact-form" id="contact-form">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="visitor-name">Your Name</label>
+
+                                <input
+                                    type="text"
+                                    id="visitor-name"
+                                    name="name"
+                                    placeholder="Enter your name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="visitor-email">Email Address</label>
+
+                                <input
+                                    type="email"
+                                    id="visitor-email"
+                                    name="email"
+                                    placeholder="Enter your email"
+                                    required
+                                >
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="visitor-subject">Subject</label>
+
+                            <input
+                                type="text"
+                                id="visitor-subject"
+                                name="subject"
+                                placeholder="What would you like to discuss?"
+                                required
+                            >
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="visitor-message">Your Message</label>
+
+                            <textarea
+                                id="visitor-message"
+                                name="message"
+                                rows="5"
+                                placeholder="Tell me about your project or idea..."
+                                required
+                            ></textarea>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            SEND MESSAGE
+                            <span aria-hidden="true">↗</span>
+                        </button>
+
+                        <p class="form-status" id="form-status" aria-live="polite"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-content container">
+
+            <a href="#home" class="footer-brand">
+                FH<span>.</span>
+            </a>
+
+            <p>
+                Designed with creativity, intention, and attention to detail.
+            </p>
+
+            <p class="copyright">
+                © <span id="current-year"></span> Fatima Hassan.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
